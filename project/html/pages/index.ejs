@@ -7,9 +7,23 @@
   <!-- the classes 'page-header' and 'btn btn-dark' create bootstrap components.  -->
   <!-- Check out more components here: http://getbootstrap.com/components/ -->
   <div class="page-header">
+    <% include ../helpers/navbar %>
 
   
     <h1>Cooper's Web App</h1>
+  </div>
+
+  <input class="search" type="text" placeholder="Enter User ID">
+  <button type="button" onClick="findUser()">Search</button>
+
+  <div class="city">
+
+  </div>
+  <div class="dob">
+
+  </div>
+  <div class="error-message">
+    
   </div>
 
   <p>Click on the button for a surprise.</p>
